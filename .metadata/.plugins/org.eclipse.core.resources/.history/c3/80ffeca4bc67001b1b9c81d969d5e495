@@ -1,0 +1,33 @@
+package sauce.test;
+
+import io.cucumber.java.en.*;
+
+public class stepDefinition {
+	
+	@Given("The user has to be in saucrdemo login page")
+	public void the_user_has_to_be_in_saucrdemo_login_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("The user has to fill username and pasword")
+	public void the_user_has_to_fill_username_and_pasword() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@When("The user click the login button")
+	public void the_user_click_the_login_button() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+	@Then("The user in invalid login page")
+	public void the_user_in_invalid_login_page() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new cucumber.api.PendingException();
+	}
+
+
+
+}

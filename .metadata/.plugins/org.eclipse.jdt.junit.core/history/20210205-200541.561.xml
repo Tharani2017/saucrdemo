@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="TestPrgm" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="sauce.test.TestRunner" time="0.031">
+    <testsuite name="Feature: To validate the saucedemo login page" time="0.031">
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.016">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to fill "standard_user" and "secret_sauce"" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.0">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to fill "locked_out_user" and "secret_sauce"" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.0">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to fill "problem_user" and "secret_sauce"" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.015">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to fill "performance_glitch_user" and "secret_sauce"" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

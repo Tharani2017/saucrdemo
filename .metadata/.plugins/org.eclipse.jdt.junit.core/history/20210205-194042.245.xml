@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SauceTest" project="TestPrgm" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="sauce.test.SauceTest" time="0.004">
+    <testsuite name="Feature: To validate the saucedemo login page" time="0.004">
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.001">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to be in saucrdemo login page" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user has to fill username and pasword" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user click the login button" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user in invalid login page" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.0">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to be in saucrdemo login page" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user has to fill username and pasword" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user click the login button" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user in invalid login page" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.0">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to be in saucrdemo login page" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user has to fill username and pasword" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user click the login button" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user in invalid login page" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="0.001">
+        <skipped>io.cucumber.junit.UndefinedThrowable: The step "The user has to be in saucrdemo login page" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user has to fill username and pasword" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user click the login button" is undefined&#13;
+&#13;
+io.cucumber.junit.UndefinedThrowable: The step "The user in invalid login page" is undefined&#13;
+&#13;
+</skipped>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

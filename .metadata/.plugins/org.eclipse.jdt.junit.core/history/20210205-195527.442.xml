@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="TestPrgm" tests="4" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="sauce.test.TestRunner" incomplete="true">
+    <testsuite name="Feature: To validate the saucedemo login page" incomplete="true">
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" time="4.843"/>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" incomplete="true"/>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" incomplete="true"/>
+      <testcase name="To validate the login functionality with valid credentials" classname="To validate the saucedemo login page" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>
