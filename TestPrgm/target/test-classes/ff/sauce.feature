@@ -4,11 +4,19 @@ Feature: To validate the saucedemo login page
     Given The user has to be in saucrdemo login page
     When The user has to fill "<username>" and "<pasword>"
     And The user click the login button
-    Then The user in invalid login page
+    Then The user in valid login page
 
     Examples: 
       | username                | pasword      |
       | standard_user           | secret_sauce |
-      | locked_out_user         | secret_sauce |
       | problem_user            | secret_sauce |
       | performance_glitch_user | secret_sauce |
+
+      
+   Scenario: To validate the login functionality with invalid credentials
+      Given The user has to be in saucrdemo login page
+      When The user has to fill username "locked_out_user" and pasword "secret_sauce"
+      And The user click the login button
+      Then The user in invalid login page
+      
+  

@@ -30,14 +30,31 @@ public class stepDefinition {
 	public void the_user_click_the_login_button() {
 	    WebElement login = d.findElement(By.id("login-button"));
 	    login.click();
-	 
+	 }
+	
+
+	@Then("The user in valid login page")
+	public void the_user_in_valid_login_page() {
+	     System.out.println("valid credentials ");
+	
+	}
+	@When("The user has to fill username {string} and pasword {string}")
+	public void the_user_has_to_fill_username_and_pasword(String usr, String paswrd) {
+		WebElement username = d.findElement(By.id("user-name"));
+		  username.sendKeys(usr);
+		  WebElement pswrd = d.findElement(By.id("password"));
+		  pswrd.sendKeys(paswrd);
+		
 	}
 
 	@Then("The user in invalid login page")
 	public void the_user_in_invalid_login_page() {
-	     System.out.println("credentials passed");
+	    System.out.println("invalid credentials");
+	    d.quit();
 	
 	}
+
+
 
 
 
